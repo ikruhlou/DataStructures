@@ -1,0 +1,31 @@
++---------------------------+
+|      CustomList<T>        |
++---------------------------+
+| - Value: T                |
+| - Next: CustomList<T>     |
++---------------------------+
+| + Node(value: T)          |
++---------------------------+
+
++----------------------------------+
+|     QuickPopDataStructure<T>     |
++----------------------------------+
+| - currentElement: CustomList<T>  |
+| - maxElement: CustomList<T>      |
+| - lockObject: object             |
++----------------------------------+
+| + QuickPopDataStructure()        |
+| + Push(item: T): void            |
+| + Pop(): T                       |
++----------------------------------+
+
++----------------------------------+
+|    QuickPushDataStructure<T>     |
++----------------------------------+
+| - currentElement: CustomList<T>  |
+| - lockObject: object             |
++----------------------------------+
+| + QuickPushDataStructure()       |
+| + Push(item: T): void            |
+| + Pop(): T                       |
++----------------------------------+
